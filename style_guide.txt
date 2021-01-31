@@ -1,0 +1,60 @@
+=== File Names
+1. No numerical characters
+2. Mongoose model files must start with capital letter
+3. Files with multiple words must be seperated by underscore (_) or hyphen(-).
+
+=== Comments
+1. Each new defined function must have comment describing functionality
+2. Mulit-line comments are okay
+
+=== Quotes
+1. Single quote everything except JSON
+
+=== Code Script
+1. HTML5
+2. CSS3
+3. Javascript ES5 or ES6
+
+=== Javascript Promises
+1. Must be written as async/await with try/catch blocks
+2. Any .then().catch() must be refactored into async/await if you need help reach out
+
+=== Controllers
+1. Name must contain route type and model name and what it's for
+Example: /*
+    exports.postRegisterUser = async(req,res)=>{
+      // Do stuff
+    }
+*/
+
+=== Routes
+1.Route files must use object destructuring when importing controllers from other files
+
+Example: /*
+    const router = require('express').Router();
+    const {postRegisterUser} = require('../controllers/user-controllers');
+*/
+
+2. Route setup must follow this format:
+
+Example: /*
+    router
+    .route("/<param or route name>")
+    .post(postRegisterUser) // for any http request type
+*/
+
+=== Indentation
+1. Use prettier or linter that formats on save.
+2. If no linter is used tabbing is ok. No spaces.
+
+=== Trailing SemiColons
+1. PLEASE USE TRAILING SEMICOLONS, some IDEs will break if all JS functionality doesn't have
+a trailing SemiColons
+
+
+
+CAN'T Think of anything else right now. If you can feel free to add below "END" line and suggestions
+that fit will be added later
+======================= END ===============================
+
+
