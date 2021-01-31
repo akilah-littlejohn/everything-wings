@@ -51,6 +51,17 @@ Example: /*
 1. PLEASE USE TRAILING SEMICOLONS, some IDEs will break if all JS functionality doesn't have
 a trailing SemiColons
 
+=== Commits
+1. All commits must have this format:
+Subject: <30 characters or less>
+Body: <Description of commit> // CLI command below
+
+CLI command >> git commit -m "Subject: <30 characters or less>" -m "Body: <descritpion of commit>"
+
+=== Branch Names
+1. Format: <directory_name>/<two word description>
+Example: models/updatedPosts
+
 
 
 CAN'T Think of anything else right now. If you can feel free to add below "END" line and suggestions

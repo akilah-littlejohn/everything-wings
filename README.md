@@ -1,5 +1,11 @@
 # Everything wings
 
+1. Group project for anyone who wants to join
+
+2. Always pull before you push
+
+3. ALWAY PULL BEFORE YOU PUSH!!!!!!!!!
+
 ## Please add full names below here and what you would like to contribute:
 
 
